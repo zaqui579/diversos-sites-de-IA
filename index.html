@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Portal Global de Inteligências Artificiais</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Descubra as melhores ferramentas de Inteligência Artificial do mundo, organizadas por categoria.">
+
+<!-- Google AdSense / AdMob -->
+<!-- INSIRA AQUI SEUS CÓDIGOS DE ANÚNCIO -->
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f2f4f8;
+  color:#222;
+}
+header{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  padding:40px 20px;
+  text-align:center;
+}
+header h1{margin:0;font-size:36px}
+header p{margin-top:10px;font-size:18px;opacity:.9}
+
+nav{
+  position:sticky;
+  top:0;
+  background:#203a43;
+  display:flex;
+  justify-content:center;
+  padding:12px 0;
+  z-index:100;
+  flex-wrap:wrap;
+}
+nav a{
+  color:#fff;
+  text-decoration:none;
+  margin:0 15px;
+  font-weight:600;
+  transition:opacity .2s;
+}
+nav a:hover{opacity:.7}
+
+.search-bar{
+  margin:20px auto;
+  text-align:center;
+}
+.search-bar input{
+  padding:10px 15px;
+  width:250px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:30px 20px;
+}
+h2{
+  margin-top:50px;
+  margin-bottom:20px;
+  font-size:26px;
+  border-left:6px solid #2c5364;
+  padding-left:12px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+.card{
+  display:block;
+  background:#fff;
+  border-radius:10px;
+  padding:18px;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+  transition:.2s;
+  text-decoration:none;
+  color:inherit;
+}
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 28px rgba(0,0,0,.15);
+}
+.card h3{
+  margin:0;
+  font-size:18px;
+  color:#2c5364;
+}
+.card p{
+  margin-top:8px;
+  font-size:14px;
+  color:#555;
+}
+footer{
+  background:#111;
+  color:#ccc;
+  text-align:center;
+  padding:30px 15px;
+  margin-top:60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Portal Global de Inteligências Artificiais</h1>
+<p>As melhores ferramentas de IA reunidas em um único lugar</p>
+</header>
+
+<nav>
+  <a href="#chat">Chatbots</a>
+  <a href="#texto">Escrita</a>
+  <a href="#imagem">Imagem</a>
+  <a href="#video">Vídeo/Áudio</a>
+  <a href="#codigo">Programação</a>
+  <a href="#sobre">Sobre o site</a>
+</nav>
+
+<div class="search-bar">
+  <input type="text" id="search" placeholder="Pesquisar IA...">
+</div>
+
+<div class="container">
+
+<!-- CHATBOTS -->
+<h2 id="chat">Chatbots e Assistentes</h2>
+<div class="grid" id="chat-grid">
+<a class="card" href="https://chat.openai.com" target="_blank"><h3>ChatGPT</h3><p>Assistente de conversação avançado</p></a>
+<a class="card" href="https://gemini.google.com" target="_blank"><h3>Google Gemini</h3><p>IA multimodal do Google</p></a>
+<a class="card" href="https://claude.ai" target="_blank"><h3>Claude</h3><p>Análise e escrita segura</p></a>
+<a class="card" href="https://grok.x.ai" target="_blank"><h3>Grok</h3><p>IA com dados em tempo real</p></a>
+<a class="card" href="https://character.ai" target="_blank"><h3>Character AI</h3><p>Conversas com personagens</p></a>
+<a class="card" href="https://you.com" target="_blank"><h3>You.com</h3><p>Motor de busca com IA</p></a>
+<a class="card" href="https://replika.ai" target="_blank"><h3>Replika</h3><p>Companhia virtual por IA</p></a>
+</div>
+
+<!-- ESCRITA -->
+<h2 id="texto">Escrita e Conteúdo</h2>
+<div class="grid" id="texto-grid">
+<a class="card" href="https://www.jasper.ai" target="_blank"><h3>Jasper</h3><p>Conteúdo para marketing</p></a>
+<a class="card" href="https://www.copy.ai" target="_blank"><h3>Copy.ai</h3><p>Textos publicitários</p></a>
+<a class="card" href="https://rytr.me" target="_blank"><h3>Rytr</h3><p>Geração rápida de textos</p></a>
+<a class="card" href="https://quillbot.com" target="_blank"><h3>QuillBot</h3><p>Paráfrase inteligente</p></a>
+<a class="card" href="https://grammarly.com" target="_blank"><h3>Grammarly</h3><p>Correção gramatical</p></a>
+<a class="card" href="https://inkforall.com" target="_blank"><h3>INK AI</h3><p>Otimização de textos para SEO</p></a>
+<a class="card" href="https://simplified.com" target="_blank"><h3>Simplified</h3><p>Criação de conteúdo e social media</p></a>
+</div>
+
+<!-- IMAGEM -->
+<h2 id="imagem">Imagem e Design</h2>
+<div class="grid" id="imagem-grid">
+<a class="card" href="https://www.midjourney.com" target="_blank"><h3>Midjourney</h3><p>Arte gerada por IA</p></a>
+<a class="card" href="https://firefly.adobe.com" target="_blank"><h3>Adobe Firefly</h3><p>Imagens profissionais</p></a>
+<a class="card" href="https://www.canva.com" target="_blank"><h3>Canva AI</h3><p>Design simplificado</p></a>
+<a class="card" href="https://www.remove.bg" target="_blank"><h3>Remove.bg</h3><p>Remover fundo de imagens</p></a>
+<a class="card" href="https://www.freepik.com" target="_blank"><h3>Freepik AI</h3><p>Recursos gráficos</p></a>
+<a class="card" href="https://runwayml.com" target="_blank"><h3>Runway</h3><p>Editor de vídeo e imagens por IA</p></a>
+<a class="card" href="https://nightcafe.studio" target="_blank"><h3>NightCafe</h3><p>Criação artística diversificada</p></a>
+</div>
+
+<!-- VÍDEO -->
+<h2 id="video">Vídeo e Áudio</h2>
+<div class="grid" id="video-grid">
+<a class="card" href="https://www.synthesia.io" target="_blank"><h3>Synthesia</h3><p>Vídeos com avatares</p></a>
+<a class="card" href="https://pictory.ai" target="_blank"><h3>Pictory</h3><p>Vídeos automáticos</p></a>
+<a class="card" href="https://murf.ai" target="_blank"><h3>Murf AI</h3><p>Vozes realistas</p></a>
+<a class="card" href="https://www.descript.com" target="_blank"><h3>Descript</h3><p>Edição de áudio e vídeo</p></a>
+<a class="card" href="https://runwayml.com" target="_blank"><h3>Runway</h3><p>Edição de vídeo com IA</p></a>
+</div>
+
+<!-- CÓDIGO -->
+<h2 id="codigo">Código e Programação</h2>
+<div class="grid" id="codigo-grid">
+<a class="card" href="https://github.com/features/copilot" target="_blank"><h3>GitHub Copilot</h3><p>Programação assistida</p></a>
+<a class="card" href="https://replit.com" target="_blank"><h3>Replit AI</h3><p>Ambiente de código online</p></a>
+<a class="card" href="https://www.tabnine.com" target="_blank"><h3>Tabnine</h3><p>Autocompletar código</p></a>
+<a class="card" href="https://codeium.com" target="_blank"><h3>Codeium</h3><p>Assistente de programação gratuito</p></a>
+<a class="card" href="https://www.kite.com" target="_blank"><h3>Kite</h3><p>Autocompletar Python e JavaScript</p></a>
+</div>
+
+<!-- SOBRE -->
+<h2 id="sobre">Sobre o site</h2>
+<p>Este portal reúne as melhores ferramentas de Inteligência Artificial do mundo em um só lugar, organizadas por categoria, para que você possa descobrir, testar e utilizar as IAs mais modernas. Site pronto para anúncios e monetização.</p>
+
+</div>
+
+<footer>
+© 2026 – Portal Global de Inteligências Artificiais
+</footer>
+
+<script>
+// Barra de pesquisa simples
+const searchInput = document.getElementById('search');
+searchInput.addEventListener('input', function(){
+  const filter = this.value.toLowerCase();
+  document.querySelectorAll('.grid .card').forEach(card=>{
+    const text = card.textContent.toLowerCase();
+    card.style.display = text.includes(filter) ? '' : 'none';
+  });
+});
+</script>
+
+</body>
+</html>
